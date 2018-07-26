@@ -22,7 +22,7 @@ Ejercicios Java
 1. Configura tu IDE (Eclipse o NetBeans) y crea una nueva clase de nombre  Ejercicio01 
 dentro de un package de nombre actividad01. Copia el siguiente código y ejecútalo. 
 
-```
+```java
 public static void main(String[] args) throws IOException {
     // Declaramos dos variables en las que almacenar valores númericos
     //las variables de tipo "int" nos permiten almacenar enteros
@@ -30,34 +30,35 @@ public static void main(String[] args) throws IOException {
     int total_peras;
 
     //guardamos valores enteros en las variables enteras
-    total_manzanas=10;
-    total_peras=20;
+    total_manzanas = 10;
+    total_peras = 20;
 
     //modificamos el contenido de las variables enteras porque el granizo las ha mermado
-    total_manzanas = total_manzanas -2;
-    total_peras = total_peras -10;
+    total_manzanas = total_manzanas - 2;
+    total_peras = total_peras - 10;
 
     //mostramos por consola el valor de las variables enteras. De forma implícita se convierte de de int a string.
-    System.out.println("Quedan "+total_manzanas+" manzanas despues del granizo");
-    System.out.println("Quedan "+total_peras+" sandias despues del granizo");
+    System.out.println("Quedan " + total_manzanas + " manzanas despues del granizo");
+    System.out.println("Quedan " + total_peras + " sandias despues del granizo");
 
     //Mostramos un mensaje al usuario pidiendole que indique un numero por consola
     System.out.println("Quantas mazanas te quieres comer?");
+    
     //Declaramos una variable compleja de nombre "br" y de tipo "BufferedReader".
     //Las variables del tipo "BufferedReader" contienen funciones para leer datos por consola
     BufferedReader br = new BufferedReader (new InputStreamReader (System.in));
+    
     //utilizamos la función "readLine" de la variable "br" para leer un dato por consola
     //guardamos el número introducido en la variable "valor_escrito"
+    
     String valor_escrito = br.readLine();
 
-    /* 
-     * Convertimos mediante una conversion explicita la variable "valor_escrito" a un valor entero para poder 
-     * operar con él    y lo almacenamos en la variable "numero_melones_comer" 
-     */
+    /* Convertimos mediante una conversion explicita la variable "valor_escrito" a un valor entero para poder 
+    operar con él    y lo almacenamos en la variable "numero_melones_comer" */
     int numero_manzanas_comer = Integer.parseInt(valor_escrito );
 
     total_manzanas = total_manzanas -numero_manzanas_comer;
-    System.out.println("Finalmente quedan "+total_manzanas+" manzanas");	  
+    System.out.println("Finalmente quedan " + total_manzanas + " manzanas");	  
 }
 ```
 
@@ -115,9 +116,9 @@ siguiente mensaje al usuario:
 Introduzca la operación a realizar del siguiente menú de opciones:
 
 			1- Añadir refresco al primer recipiente.
-			2-Traspasar refresco del primer al segundo recipiente.
+			2- Traspasar refresco del primer al segundo recipiente.
 			3- Quitar refresco del segundo recipiente.
-			0-Finalizar
+			0- Finalizar
 
     * a.	Si el usuario introduce un 1, el programa ha de pedir un número decimal al usuario y 
     añadirlo al primer recipiente.
