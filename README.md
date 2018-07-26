@@ -74,10 +74,10 @@ un comentario indicando el tipo de dato. Además  para cada tipo de dato simple
 declara una variable de ese tipo, asígnale un valor y muestra un mensaje que 
 explique las características del tipo de dato y muestre el valor de la variable. 
 Ej:
-```
+```java
 //Tipo de dato entero de 32 bits de longitud
-int variableEntera =10;
-System.out.println("Variable tipo int muestra datos enteros de 32 bits. Ejemplo:"+variableEntera);
+int variableEntera = 10;
+System.out.println("Variable tipo int muestra datos enteros de 32 bits. Ejemplo: " + variableEntera);
 ```
 
 4.	Dentro de la clase de nombre Ejercicio02, añade un ejemplo de uso de cada uno de 
