@@ -2,7 +2,7 @@
 Ejercicios Java
 
 ## Objetivos
----
+
 
 -	Utilizar un IDE como Eclipse o NetBeans y depurar sus errores.
 -	Reconocer y crear los elementos propios de un programa informático.
@@ -14,7 +14,7 @@ Ejercicios Java
 
 #### Actividad 1
 ## *Elementos de un programa*
----
+
 
 ##### **Identificación de los elementos de un programa informático y utilización de las estructuras de control**
 
@@ -95,7 +95,7 @@ realizado en éste punto.
 
 #### Actividad 2
 ## *ESTRUCTURAS DE CONTROL*
----
+
 
 ##### **Crea los archivos .java dentro de un package de nombre actividada02**
 
